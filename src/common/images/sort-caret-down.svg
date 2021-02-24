@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Up_Down_Button" width="11.718" height="16.253" data-name="Up Down Button" viewBox="0 0 11.718 16.253">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#e5e5e5}
+            .prefix__cls-2{fill:#666}
+        </style>
+    </defs>
+    <path id="prefix__Path_184" d="M730.231 346.071l5.763 6.859a.083.083 0 0 1-.064.137h-11.55a.083.083 0 0 1-.064-.137l5.763-6.859a.1.1 0 0 1 .152 0z" class="prefix__cls-1" data-name="Path 184" transform="translate(-724.296 -346.036)"/>
+    <path id="prefix__Path_185" d="M730.079 362.253l-5.763-6.858a.083.083 0 0 1 .064-.137h11.55a.083.083 0 0 1 .064.137l-5.763 6.858a.1.1 0 0 1-.152 0z" class="prefix__cls-2" data-name="Path 185" transform="translate(-724.296 -346.036)"/>
+</svg>

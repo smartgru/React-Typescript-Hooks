@@ -1,0 +1,28 @@
+@import '../../common/variables';
+
+.editIcon {
+  display: inline-block;
+  background-image: url('../../common/images/edit-icon.svg');
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-image: url('../../common/images/edit-icon-hover.svg');
+  }
+}
+
+.deleteIcon {
+  display: inline-block;
+  background-image: url('../../common/images/delete-icon.png');
+  background-repeat: no-repeat;
+  background-size: 16px 18px;
+  width: 16px;
+  height: 18px;
+  cursor: pointer;
+
+  &:hover {
+    background-image: url('../../common/images/delete-icon-hover.png');
+  }
+}

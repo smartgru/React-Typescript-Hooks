@@ -1,0 +1,112 @@
+@import '../../common/variables';
+
+.firstHalfInput {
+  width: 50%;
+  padding-right: 6px;
+}
+
+.secondHalfInput {
+  width: 50%;
+  padding-left: 6px;
+
+  input:placeholder-shown ~ .label {
+    left: 18px !important;
+  }
+
+  .label,
+  input:focus ~ .label {
+    left: 18px !important;
+  }
+}
+
+.inputBlock {
+  height: 58px;
+  min-height: 58px;
+  font-size: 13px;
+
+  input {
+    font-size: 13px;
+    height: 40px;
+    padding: 0 12px;
+
+    &:focus,
+    &:not(:placeholder-shown) {
+      padding-top: 12px;
+    }
+  }
+
+  input:placeholder-shown ~ .label {
+    font-size: 13px;
+    top: 14px;
+    left: 12px;
+  }
+
+  .label,
+  input:focus ~ .label {
+    top: 8px;
+    left: 12px;
+    font-size: 9px;
+  }
+
+  select {
+    font-size: 13px;
+    height: 40px;
+    padding: 0 12px;
+    color: #888888 !important;
+  }
+}
+
+.selectWrap {
+  &::after {
+    width: 16px;
+    height: 8px;
+    top: 18px;
+  }
+}
+
+.submitButtonBlock {
+  height: 40px;
+  min-height: 40px;
+
+  input {
+    height: 40px;
+    font-size: $font-size-small;
+  }
+}
+
+.title {
+  font-size: 15px;
+  line-height: 1;
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: #707070;
+}
+
+.step4 {
+  text-align: center;
+  color: #707070;
+
+  .image {
+    margin-top: 50px;
+  }
+
+  .thankYou {
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 0;
+    margin-top: 30px;
+  }
+
+  .separator {
+    width: 356px;
+    height: 1px;
+    background: #707070;
+    opacity: 0.3;
+    margin: 25px auto;
+  }
+
+  .description {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

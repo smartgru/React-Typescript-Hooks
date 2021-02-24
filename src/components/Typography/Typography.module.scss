@@ -1,0 +1,23 @@
+@import '../../common/variables';
+
+.h1 {
+  color: $primary-text-color;
+  font-size: $font-size-h1;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.h2 {
+  color: $primary-gray-color;
+  font-size: $font-size-h2;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.h3 {
+  color: $primary-red-color;
+  font-size: $font-size-h3;
+  border-bottom: 1px solid $secondary-gray-color;
+  margin-bottom: 0;
+  font-variant: all-small-caps;
+}

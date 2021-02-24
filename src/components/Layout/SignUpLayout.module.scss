@@ -1,0 +1,108 @@
+@import '../../common/variables';
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -312px;
+  margin-left: -257px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 515px;
+  height: 625px;
+  padding: 47px 47px 55px 47px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 7.1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.stepsBlock {
+  height: 195px;
+}
+
+.contentBlock {
+  height: 286px;
+}
+
+.logo {
+  background: url('../../common/images/logo-sign-up.svg') no-repeat center center;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 15px;
+  line-height: 1;
+  margin-bottom: 0;
+  text-align: center;
+  color: #707070;
+}
+
+.steps {
+  display: flex;
+  height: 128px;
+  align-items: center;
+  justify-content: space-around;
+
+  .stepContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stepCircle {
+    position: relative;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background: linear-gradient(-18.14deg, rgba(198, 198, 198, 1) 0%, rgba(239, 239, 239, 1) 100%);
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 14px;
+      left: -74px;
+      width: 74px;
+      height: 2px;
+      background: #d2d2d2;
+    }
+
+    &.stepCircleFirst::before {
+      left: -35px;
+      width: 35px;
+    }
+
+    &.stepCircleLast::after {
+      content: '';
+      position: absolute;
+      top: 14px;
+      left: 30px;
+      width: 42px;
+      height: 2px;
+      background: #d2d2d2;
+    }
+  }
+
+  .stepCircleActive {
+    background: linear-gradient(-18.14deg, rgba(66, 161, 236, 1) 0%, rgba(0, 112, 201, 1) 100%);
+
+    &::before {
+      background: rgba(0, 112, 201, 1);
+    }
+
+    &.stepCircleLast::after {
+      background: rgba(0, 112, 201, 1);
+    }
+  }
+
+  .stepText {
+    margin-top: 11px;
+    color: #707070;
+    font-weight: bold;
+    font-size: 10px;
+  }
+}

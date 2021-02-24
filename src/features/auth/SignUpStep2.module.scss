@@ -1,0 +1,64 @@
+:global {
+  .StripeElement--webkit-autofill {
+    background: transparent !important;
+  }
+
+  .StripeElement {
+    width: 100%;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0;
+      transform: scale3D(0.95, 0.95, 0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale3D(1, 1, 1);
+    }
+  }
+}
+
+.title {
+  font-size: 15px;
+  line-height: 1;
+  font-weight: bold;
+  margin-bottom: 18px;
+  margin-top: 60px;
+  color: #707070;
+}
+
+.stripeField {
+  border-radius: 5px;
+  border: 1px solid #cbcbcb;
+  height: 40px;
+  width: 100%;
+  padding: 12px 12px;
+}
+
+.spacer {
+  width: 100%;
+  height: 100px;
+}
+
+.stripeErrorMessage {
+  color: #ff0000;
+  position: absolute;
+  top: 65px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  font-size: 10px;
+  margin-top: 0;
+  width: 100%;
+  transform: translateY(-15px);
+  opacity: 0;
+  animation: fade 150ms ease-out;
+  animation-delay: 50ms;
+  animation-fill-mode: forwards;
+  will-change: opacity, transform;
+}
+
+.checkboxBlock {
+  margin-top: 15px;
+}

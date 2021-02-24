@@ -1,0 +1,38 @@
+.leftArrow {
+  position: absolute;
+  left: -22px;
+  margin-top: -25px;
+  width: 25px;
+  height: 51px;
+  background: url('../../common/images/left-arrow.svg') no-repeat;
+  cursor: pointer;
+}
+
+.rightArrow {
+  position: absolute;
+  right: -22px;
+  margin-top: -25px;
+  width: 25px;
+  height: 51px;
+  background: url('../../common/images/right-arrow.svg') no-repeat;
+  cursor: pointer;
+}
+
+.imageThumbnail {
+  box-shadow: 5px 5px 8px 0 #dbdada;
+  border-radius: 5px;
+}
+
+:global {
+  .BrainhubCarousel {
+    padding-bottom: 15px;
+  }
+
+  .BrainhubCarousel .BrainhubCarousel__trackContainer .BrainhubCarousel__track {
+    overflow: unset;
+  }
+
+  .BrainhubCarousel .BrainhubCarousel__trackContainer {
+    overflow: unset;
+  }
+}

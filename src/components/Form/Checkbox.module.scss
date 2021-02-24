@@ -1,0 +1,29 @@
+@import '../../common/variables';
+
+.inputRow {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 32px;
+}
+
+.inputElement {
+  width: 16px;
+  height: 16px;
+}
+
+.inputElementWithError {
+  outline: 1px solid $primary-red-color;
+  outline-offset: -1px;
+}
+
+.label {
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 6px;
+  margin-bottom: 0;
+}
+
+.labelWithError {
+  color: $primary-red-color;
+}

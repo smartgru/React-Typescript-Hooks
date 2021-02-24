@@ -1,0 +1,54 @@
+@import '../../common/variables';
+
+.modalBody {
+  padding: 27px 88px 65px 88px;
+}
+
+.modalContent {
+  min-width: 707px;
+  border-radius: 6px;
+  border-color: $modal-border-color;
+}
+
+.modalHeader {
+  display: flex;
+  align-items: center;
+  height: 88px;
+  padding: 0 34px 0 88px;
+  background: $header-secondary-nav-bg-color;
+}
+
+.modalHeaderTitleLeft {
+  font-size: 31px;
+  font-weight: bold;
+  color: #0070c9;
+}
+
+.modalHeaderTitleDelimiter {
+  height: 38px;
+  width: 1px;
+  background-color: #0070c9;
+  margin: 0 10px;
+}
+
+.modalHeaderTitleRight {
+  font-size: 31px;
+  font-weight: bold;
+  color: #1c1b1a;
+}
+
+.modalHeaderTitleCloseIcon {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.modalHeaderGradient {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 23.62%,
+    rgba(251, 251, 251, 1) 50.37%,
+    rgba(240, 240, 240, 1) 75.53%,
+    rgba(221, 222, 222, 1) 100%
+  );
+  height: 34px;
+}

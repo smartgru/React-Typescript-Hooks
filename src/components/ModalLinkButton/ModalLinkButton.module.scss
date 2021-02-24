@@ -1,0 +1,21 @@
+@import '../../common/variables';
+
+.button {
+  background: linear-gradient(
+    180deg,
+    rgba(43, 155, 236, 1) 0%,
+    rgba(35, 146, 229, 1) 26.91%,
+    rgba(13, 120, 212, 1) 71.59%,
+    rgba(0, 105, 201, 1) 93.72%
+  );
+  border-radius: 2px;
+  font-size: 13px;
+  color: $primary-white-color;
+  padding: 10px;
+  border: none;
+
+  &:hover {
+    background: linear-gradient(180deg, rgba(62, 165, 240, 1) 0%, rgba(21, 119, 207, 1) 100%);
+    color: $primary-white-color;
+  }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Header_Button_1" width="24.762" height="27.669" data-name="Header Button 1" viewBox="0 0 24.762 27.669">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__Group_170" data-name="Group 170" transform="translate(-1659.92 -13.05)">
+        <path id="prefix__Path_141" d="M1668.221 28.606a12.385 12.385 0 0 0-8.293 10.817l-.008.109v1.187h24.762l-.028-.729-.007-.094-.033-.473a12.389 12.389 0 0 0-8.293-10.817l-.07-.024a19.622 19.622 0 0 0-3.537-.661h-.748a14.159 14.159 0 0 0-3.607.636zm4.05.134a11.637 11.637 0 0 1 11.523 10.589l.047.551.009.11h-23.158l.009-.11.047-.551a11.636 11.636 0 0 1 11.523-10.589z" class="prefix__cls-1" data-name="Path 141"/>
+    </g>
+    <path id="prefix__Path_142" d="M1672.271 13.05a6.317 6.317 0 1 0 6.316 6.317 6.324 6.324 0 0 0-6.316-6.317zm0 11.786a5.469 5.469 0 1 1 5.469-5.469 5.475 5.475 0 0 1-5.469 5.469z" class="prefix__cls-1" data-name="Path 142" transform="translate(-1659.92 -13.05)"/>
+</svg>

@@ -1,0 +1,36 @@
+@import '../../common/variables';
+
+.small {
+  height: $spacing-small * 0.85;
+}
+
+.medium {
+  height: $spacing-medium * 0.85;
+}
+
+.large {
+  height: $spacing-large * 0.7;
+}
+
+.redSpacer {
+  position: relative;
+  border-bottom: 1px solid $primary-red-color;
+  margin: $spacing-large 0;
+
+  &::after {
+    position: absolute;
+    display: block;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 37px;
+    height: 8px;
+    background: $primary-red-color;
+  }
+}
+
+.graySpacer {
+  background: rgba(228, 227, 222, 1);
+  height: 1px;
+  margin: 40px 0 35px 0;
+}

@@ -1,0 +1,63 @@
+@import '../../common/variables';
+
+.inputBlock {
+  height: 58px;
+  min-height: 58px;
+  font-size: 13px;
+
+  input {
+    font-size: 13px;
+    height: 40px;
+    padding: 0 12px;
+
+    &:focus,
+    &:not(:placeholder-shown) {
+      padding-top: 12px;
+    }
+  }
+
+  input:placeholder-shown ~ .label {
+    font-size: 13px;
+    top: 14px;
+    left: 12px;
+  }
+
+  .label,
+  input:focus ~ .label {
+    top: 8px;
+    left: 12px;
+    font-size: 9px;
+  }
+}
+
+.submitButtonBlock {
+  height: 40px;
+  min-height: 40px;
+
+  input {
+    height: 40px;
+    font-size: 11px;
+  }
+}
+
+.linksBlock {
+  font-size: 11px;
+  width: 100%;
+  line-height: 17px;
+  color: #707070;
+  text-align: center;
+  margin-top: 28px;
+}
+
+.link {
+  font-size: 11px;
+  color: $primary-link-color;
+}
+
+.formErrorBlock {
+  display: block;
+  text-align: center;
+  font-size: 9px;
+  margin-top: -12px;
+  margin-bottom: 4px;
+}

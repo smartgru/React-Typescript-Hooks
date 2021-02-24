@@ -1,0 +1,10 @@
+@import './common/variables';
+@import './common/bootstrapVariables';
+
+@import '~bootstrap/scss/bootstrap';
+@import '~react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
